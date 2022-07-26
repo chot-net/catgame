@@ -1,0 +1,38 @@
+.frame {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:blue;
+    width: 100%;
+    height: 100%;
+}
+
+#game-screen {
+    border: 1px solid black;
+    display: none;
+}
+
+img{
+    display: none;
+}
+
+.messagebox {
+    display: none;
+}
+
+#copy-message {
+    width: 640px;
+    font-size: 36px;
+    visibility: hidden;
+}
+
+#menu-screen {
+    background-color: black;
+    width: 640px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}

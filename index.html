@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Cat Game
+        </title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5">
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <div class="frame">
+            <div>
+                <textarea id="messagebox" class="messagebox" ></textarea>
+                <button id="copy-message">ゲーム結果をコピーして友達に教える</button>
+            </div>
+
+            <script>
+                let gamemode = false;
+                let bgm = null;
+            </script>
+
+            <div>
+                <div id="menu-screen"><h1 id="game-start">Game Start</h1></div>
+                <script src="./js/menu.js" type="module"></script>
+
+                <canvas id="game-screen" width="640" height="480"></canvas>
+                <script src="./js/index.js" type="module"></script>
+            </div>
+
+            <script src="./js/copy.js" type="module"></script>
+            <img id="img-cat-jump" src="images/cat-jump.png">
+            <img id="img-cat-1" src="images/cat-1.png">
+            <img id="img-cat-2" src="images/cat-2.png">
+            <img id="img-back" src="images/back.png">
+            <img id="img-stone" src="images/stone.png">
+            <img id="img-can" src="images/can.png">
+            <img id="img-palm" src="images/palm.png">
+            <img id="img-gameover" src="images/gameover.png">
+        </div>
+    </body>
+</html>
